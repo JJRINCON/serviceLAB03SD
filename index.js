@@ -6,7 +6,7 @@ app.post('/getData', async (req, res) => {
     var con = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "@1002606110jJ",
+        password: "@Sistemas2021",
         database: "university"
     });
     console.log(req.query.query)
