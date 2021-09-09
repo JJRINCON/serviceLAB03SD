@@ -1,5 +1,7 @@
 CREATE DATABASE university;
 
+USE university;
+
 CREATE TABLE students(id int unique, 
                       name VARCHAR(40) not null,
                       career VARCHAR(50) not null, 
