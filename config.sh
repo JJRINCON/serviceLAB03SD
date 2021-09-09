@@ -50,7 +50,4 @@ sudo expect ~/secure_our_mysql.sh
 
 sudo service mysql start
 
-mysql --user="root" --password="$MYSQL_ROOT_PASSWORD"
-
-source university.sql;
-exit;
+mysql --user="root" --password="$MYSQL_ROOT_PASSWORD" -e "source university.sql"
